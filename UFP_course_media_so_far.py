@@ -93,6 +93,7 @@ login_data = {
 
 
 with requests.Session() as s:
+    print("Fetching data from SIUFP...")
     url = "https://portal.ufp.pt/authentication.aspx"
     page = requests.get(url, headers=headers)
     soup = BeautifulSoup(page.content, "html.parser")
@@ -108,8 +109,7 @@ table = contain_notes.find(lambda tag: tag.name == 'table' and tag.has_attr('id'
 rows = tableDataText(table)
 
 rows.pop(0) # retira primeiro valor que indica os tipos dos valores do resto da lista
-print("A sua media é")
-print(calculate_media(rows, creditos))
+print("You average is: ", calculate_media(rows, creditos))
 
 
 
