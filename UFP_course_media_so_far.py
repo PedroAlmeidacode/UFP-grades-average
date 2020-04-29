@@ -1,5 +1,11 @@
+import os
+
 import requests
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 
 
@@ -74,10 +80,8 @@ creditos = {
 }
 
 
-number = input("Insira o seu numero de aluno: ")
-pswd = input("Password: ")
-
-
+number = os.getenv('USER_LOGIN')
+pswd = os.getenv('USER_PSWD')
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/81.0.4044.122 Chrome/81.0.4044.122 Safari/537.36'}
 login_data = {
     '__EVENTTARGET': '',
