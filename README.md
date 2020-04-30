@@ -37,3 +37,9 @@ Use the package manager [pip3]
 ```
 
 
+<br><br><br><b>
+### MADE BY 
+Pedro Almeida
+in #OneScriptPerDay personal challenge 
+
+
