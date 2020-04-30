@@ -113,8 +113,7 @@ table = contain_notes.find(lambda tag: tag.name == 'table' and tag.has_attr('id'
 rows = tableDataText(table)
 
 rows.pop(0) # retira primeiro valor que indica os tipos dos valores do resto da lista
-print("You average is: ", calculate_media(rows, creditos))
-
+print("You average is: ", round(calculate_media(rows, creditos), 2))
 
 
 
