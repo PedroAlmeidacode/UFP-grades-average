@@ -10,15 +10,22 @@ Python web scrapper that fetches data from Siufp and calculates your course aver
 ### Needed:
 - Modificate your **.env** file to your login authentication
 
+
+<br><br>
+
+
 ## How it works ?
 
 - Fetches your grades from SIUFP
 - Fetches you course class credits
 - Calculates your average with that information
 
+<br><br>
 
 ## Pre-requirements
 ``python3``
+
+<br><br>
 
 ## Installation
 
