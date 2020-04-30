@@ -4,14 +4,14 @@ Python web scrapper that fetches data from Siufp and calculates your course aver
 
 **only works with computer science course at UFP**
 
-
+<br>
 
 
 ### Needed:
 - Modificate your **.env** file to your login authentication
 
 
-<br><br>
+<br>
 
 
 ## How it works ?
